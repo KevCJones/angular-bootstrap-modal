@@ -3,7 +3,7 @@ import {
 } from "@angular/core";
 import { DialogHolderComponent } from "./dialog-holder.component";
 import { DialogComponent } from "./dialog.component";
-import { Observable } from "rxjs";
+import { Observable } from "rxjs/Observable";
 
 export interface DialogOptions {
   index?: number;
@@ -70,6 +70,9 @@ export class DialogService {
    * Closes all dialogs
    */
   removeAll(): void {
+    if(!this.dialogHolderComponent) {
+      return;
+    }
     this.dialogHolderComponent.clear();
   }
 
