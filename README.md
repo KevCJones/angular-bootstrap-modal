@@ -1,3 +1,11 @@
+# Please be aware
+
+While we forked this to resolve some ng5 issues. We've recently forked an updated version and are working on cleaning up the code and will be actively improving it. This one however will be a much slower burn as its original intent was to make it easier to merge back into the original repo.
+
+[https://github.com/KevCJones/ngx-simple-modal](https://github.com/KevCJones/ngx-simple-modal)
+
+Contains some breaking changes and unifying of naming conventions already. Migration notes coming soon but functionally its doing the same job.
+
 # AngularX Bootstrap Modal Service
 
 It is a library to make usage of bootstrap modal plugin easier in Angular2. 
