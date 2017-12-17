@@ -69,19 +69,19 @@ var DialogHolderComponent = (function () {
         this.element.clear();
         this.dialogs = [];
     };
+    DialogHolderComponent.decorators = [
+        { type: core_1.Component, args: [{
+                    selector: 'dialog-holder',
+                    template: '<ng-template #element></ng-template>',
+                },] },
+    ];
+    DialogHolderComponent.ctorParameters = function () { return [
+        { type: core_1.ComponentFactoryResolver, },
+    ]; };
+    DialogHolderComponent.propDecorators = {
+        'element': [{ type: core_1.ViewChild, args: ['element', { read: core_1.ViewContainerRef },] },],
+    };
     return DialogHolderComponent;
 }());
-DialogHolderComponent.decorators = [
-    { type: core_1.Component, args: [{
-                selector: 'dialog-holder',
-                template: '<ng-template #element></ng-template>',
-            },] },
-];
-DialogHolderComponent.ctorParameters = function () { return [
-    { type: core_1.ComponentFactoryResolver, },
-]; };
-DialogHolderComponent.propDecorators = {
-    'element': [{ type: core_1.ViewChild, args: ['element', { read: core_1.ViewContainerRef },] },],
-};
 exports.DialogHolderComponent = DialogHolderComponent;
 //# sourceMappingURL=dialog-holder.component.js.map

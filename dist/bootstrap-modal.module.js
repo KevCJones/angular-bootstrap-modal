@@ -25,26 +25,26 @@ var BootstrapModalModule = (function () {
             ]
         };
     };
+    BootstrapModalModule.decorators = [
+        { type: core_1.NgModule, args: [{
+                    declarations: [
+                        dialog_holder_component_1.DialogHolderComponent,
+                        dialog_wrapper_component_1.DialogWrapperComponent
+                    ],
+                    providers: [
+                        dialog_service_1.DialogService
+                    ],
+                    imports: [
+                        common_1.CommonModule
+                    ],
+                    entryComponents: [
+                        dialog_holder_component_1.DialogHolderComponent,
+                        dialog_wrapper_component_1.DialogWrapperComponent
+                    ]
+                },] },
+    ];
+    BootstrapModalModule.ctorParameters = function () { return []; };
     return BootstrapModalModule;
 }());
-BootstrapModalModule.decorators = [
-    { type: core_1.NgModule, args: [{
-                declarations: [
-                    dialog_holder_component_1.DialogHolderComponent,
-                    dialog_wrapper_component_1.DialogWrapperComponent
-                ],
-                providers: [
-                    dialog_service_1.DialogService
-                ],
-                imports: [
-                    common_1.CommonModule
-                ],
-                entryComponents: [
-                    dialog_holder_component_1.DialogHolderComponent,
-                    dialog_wrapper_component_1.DialogWrapperComponent
-                ]
-            },] },
-];
-BootstrapModalModule.ctorParameters = function () { return []; };
 exports.BootstrapModalModule = BootstrapModalModule;
 //# sourceMappingURL=bootstrap-modal.module.js.map
